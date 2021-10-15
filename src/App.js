@@ -17,13 +17,15 @@ function App() {
     <>
       <Navbar />
             
-      <div className="mb-5 mt-2">
-      <Intro />
-      <Feature />
-      <Content />
-      <SlideContent />
-      <JoinUs />
-      </div>
+      <Suspense fallback = {<div>Loading...</div>}>
+        <div className="mb-5 mt-2">
+        <Intro />
+        <Feature />
+        <Content />
+        <SlideContent />
+        <JoinUs />
+        </div>
+      </Suspense>
 
       <Footer />
     </>
