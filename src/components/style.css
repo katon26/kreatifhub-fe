@@ -1,0 +1,286 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+  height: 84px;
+  /* position: fixed; */
+}
+
+.navbar-brand {
+  margin-left: 8rem;
+  margin-right: 5rem;
+}
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 40;
+  /* margin-left: 100px; */
+  position: absolute;
+}
+
+#navbarCollapse .navbar-nav .nav-link {
+  color: #114997;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  /* margin-left: 40px; */
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+.form-select {
+  height: auto;
+  width: 73px;
+  margin-left: 63px;
+  margin-right: 65px;
+  line-height: 19px;
+  border: none;
+}
+
+option {
+  color: black;
+}
+
+#btn-masuk {
+  margin-left: 40px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#btn-masuk:hover {
+  color: white;
+}
+
+#btn-daftar {
+  margin-right: 20px;
+  color: #ffffff;
+  background: #F5AA0E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#btn-daftar:hover {
+  color: #ffffff;
+  background: #7B5300;
+  border-color: #7B5300;
+}
+
+/* INTRO */
+.intro h1 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  margin-bottom: 16px;
+}
+
+.intro p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btn-intro button {
+    color: #fff;
+    background-color: #2361B9;
+    border-color: #2361B9;
+    display: inline;
+    width: 250px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.img-intro {
+  /* Test 1 */
+  display: block;
+  height: 316px;
+  width: 450px;
+  max-width: 100%;
+  padding: 0px 0px 70px 80px;
+    
+  /* Test 2 */
+  /* height: auto;
+  padding: 0 20px; */
+}
+
+/* FEATURES */
+.feature {
+    margin-bottom: 140px;
+}
+
+.feature .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.feature h2 {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.feature .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+/* CONTENT */
+.content .video-content {
+  margin-bottom: 140px;
+}
+
+.content .banner-content {
+  margin-bottom: 140px;
+}
+
+.content h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.content h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  /* Bottom-left */
+  bottom: 8px;
+  left: 16px;
+  
+}
+
+.content .slide-content {
+    margin-bottom: 140px;
+}
+
+.content-2 {
+  padding: 0px 40px;
+  margin-bottom: 140px;
+}
+
+.content-2 button {
+  width: 185px;
+  height: 50px;
+  background-color: #2361B9;
+  border-color: #2361B9;
+  border-radius: 5px;
+  margin-top: 53px;
+}
+
+.yt-thumbnail {
+  height: auto;
+  width: 800px;
+}
+
+.banner {
+  height: auto;
+  width: 1015px;
+}
+
+#custom-list li {
+  list-style-type: '✓ ';
+}
+
+/* FOOTER */
+footer {
+  background: #114997;
+  border-radius: 32px 32px 0px 0px;
+}
+
+footer .img-logo {
+  width: 180px;
+  height: 95px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+footer h2 {
+  color: #FFBF3A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;  
+  margin-top: 60px;
+}
+
+footer ul {
+  padding-left: 0pt;
+}
+
+footer li {
+  color: #ffffff;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+#footer-2 {
+  background-color: #043475;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: 101px;
+  height: 64px;
+}
+
+#footer-2 .container {
+  padding-top: 1rem;
+}
+
+#footer-2 .right-side {
+  color: #FFFFFF;
+  padding-left: 10rem;
+}
+
+.copyright {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
